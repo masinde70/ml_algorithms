@@ -12,3 +12,4 @@ Localization algorithms are intended to aid radiologists in determining where in
 ## Applications 
 - Assesing tumour growth over time
 - Patients are given chemotherapy to kill lung tumours 
+- Efficacy of chemo is assessed by tumour shrinking (segmentation algorithm is good for this)
