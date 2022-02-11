@@ -1,3 +1,4 @@
 # ml_algorithms
-## Types of 2D Imaging
+## Types of 2D Imaging Algorithms 
+1. Classification
 
