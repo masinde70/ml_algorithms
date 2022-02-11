@@ -8,3 +8,7 @@ Localization algorithms are intended to aid radiologists in determining where in
 
 3. Segmentation 
    Segmentation algorithms return a set of pixels that contain the presence of a particular finding in an image, creating a border around a particular finding that allows for the calculation of its exact area. Segmentation algorithms are typically used to measures the size of particular findings or count the number of findings in an image. They are often used to count cells in microscopy data as well, where each cell in an image is segmented individually   
+
+## Applications 
+- Assesing tumour growth over time
+- Patients are given chemotherapy to kill lung tumours 
