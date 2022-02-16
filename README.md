@@ -15,16 +15,16 @@ Localization algorithms are intended to aid radiologists in determining where in
 - Patients are given chemotherapy to kill lung tumours 
 - Efficacy of chemo is assessed by tumour shrinking (segmentation algorithm is good for this)
 
-Performance Metrics
-Sensitivity
+## Performance Metrics
+### Sensitivity
 Sensitivity is a metric that tells us among ALL the positive cases in the dataset, how many of them are successfully identified by the algorithm, i.e. the true positive. In other words, it measures the proportion of accurately-identified positive cases.
 
 You can think of highly sensitive tests as being good for ruling out disease. If someone has a negative result on a highly sensitive algorithm, it is extremely likely that they don’t have the disease since a high sensitive algorithm has low false negative.
 
-Specificity
+### Specificity
 Specificity measures ALL the negative cases in the dataset, how many of them are successfully identified by the algorithm, i.e. the true negatives. In other words, it measures the proportion of accurately-identified negative cases.
 
 You can think of highly specific tests as being good for ruling in disease. If someone has a positive result on a highly specific test, it is extremely likely that they have the disease since a high specific algorithm has low false positive.
 
-Dice coefficient
+### Dice coefficient
 The dice coefficient measures the overlap of algorithm output and true labels. It is used to assess the performance of segmentation and localization.
